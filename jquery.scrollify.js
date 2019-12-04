@@ -471,7 +471,7 @@ if touchScroll is false - update index
       },
       down: function() {
 
-        if(index<heights.length) {
+        if(index+1<heights.length) {
 
           if(atBottom() && index<heights.length-1) {
 
